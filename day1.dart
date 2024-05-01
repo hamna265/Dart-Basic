@@ -34,7 +34,7 @@ print(list.runtimeType);
 //----------------------------maps-------------------------------
 //The maps type is used to store values in key-value pairs. Each key is associated with its value. The key and value can be any type. In Map, the key must be unique, 
 //but a value can occur multiple times. The Map is defined by using curly braces ({}), and comma separates each pair.
-var student= {'Name':'abrar','age':'20'};
+var student= {'Name':'hamna','age':'20'};
 print(student);
 //---------------------------Runes------------------------------
 //As we know that, the strings are the sequence of Unicode UTF-16 code units. Unicode is a technique which is used to describe a unique numeric value for each digit, letter, and symbol.
@@ -62,11 +62,11 @@ String k = 12.23.toString();
 print(k.runtimeType);
 
 // concatenation operator (+) is use to add two strings For example
-String m = "Abrar";
+String m = "Hamna";
 print("My Name is "+ m); 
 
 //String interpolation use with help of ($) for example 
-String n = "Abrar Ali";
+String n = "Hamna Shahid";
 print("My name is $n");
 // if we find the the length of string use ${variable_name.lenght};
 print("String Size is  ${n.length}");
